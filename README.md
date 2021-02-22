@@ -1,3 +1,5 @@
+Linked issue: https://issuetracker.google.com/u/1/issues/180884668
+
 ### Description
 
 If multiple permissions are requested using `RequestMultiplePermissions` and one of them is permanently denied, the map returned by `registerForActivityResult` does not contain all the requested permissions.
